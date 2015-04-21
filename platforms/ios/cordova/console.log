@@ -1,0 +1,100 @@
+2015-04-21 19:09:49.920 Thirukkural[866:20931] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/7325BFF8-766F-429E-9F45-BC25F5B15A71/Library/Cookies/Cookies.binarycookies
+2015-04-21 19:09:50.363 Thirukkural[866:20931] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 19:09:50.364 Thirukkural[866:20931] Multi-tasking -> Device: YES, App: YES
+2015-04-21 19:09:50.394 Thirukkural[866:20931] Unlimited access to network resources
+2015-04-21 19:09:50.412 Thirukkural[866:20931] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-21 19:09:52.017 Thirukkural[866:20931] Resetting plugins due to page load.
+2015-04-21 19:09:52.219 Thirukkural[866:20931] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/38FF1DDC-013F-4873-9F35-3B90AC0C6F35/Thirukkural.app/www/index.html
+2015-04-21 19:11:32.886 Thirukkural[947:21943] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/48A93B71-C222-4E3C-9D77-96A95CC38E67/Library/Cookies/Cookies.binarycookies
+2015-04-21 19:11:32.983 Thirukkural[947:21943] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 19:11:32.983 Thirukkural[947:21943] Multi-tasking -> Device: YES, App: YES
+2015-04-21 19:11:32.984 Thirukkural[947:21943] Unlimited access to network resources
+2015-04-21 19:11:32.987 Thirukkural[947:21943] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-21 19:11:33.395 Thirukkural[947:21943] Resetting plugins due to page load.
+2015-04-21 19:11:33.444 Thirukkural[947:21943] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/BDD88874-06E5-46C5-B8FD-347C2221BE19/Thirukkural.app/www/index.html
+2015-04-21 19:16:36.653 Thirukkural[1036:23877] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/3F4819DC-06F7-41FC-A2C1-7AAE53D66F5F/Library/Cookies/Cookies.binarycookies
+2015-04-21 19:16:36.790 Thirukkural[1036:23877] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 19:16:36.791 Thirukkural[1036:23877] Multi-tasking -> Device: YES, App: YES
+2015-04-21 19:16:36.793 Thirukkural[1036:23877] Unlimited access to network resources
+2015-04-21 19:16:36.796 Thirukkural[1036:23877] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-21 19:16:37.134 Thirukkural[1036:23877] Resetting plugins due to page load.
+2015-04-21 19:16:37.238 Thirukkural[1036:23877] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/CA0465DF-500F-45B1-A28F-EFF939DCCFD8/Thirukkural.app/www/index.html
+2015-04-21 19:19:36.223 Thirukkural[1265:25729] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/E2CC61F5-5CDD-490B-8142-7C30B18239BE/Library/Cookies/Cookies.binarycookies
+2015-04-21 19:19:36.391 Thirukkural[1265:25729] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 19:19:36.391 Thirukkural[1265:25729] Multi-tasking -> Device: YES, App: YES
+2015-04-21 19:19:36.393 Thirukkural[1265:25729] Unlimited access to network resources
+2015-04-21 19:19:36.395 Thirukkural[1265:25729] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-21 19:19:36.797 Thirukkural[1265:25729] Resetting plugins due to page load.
+2015-04-21 19:19:37.012 Thirukkural[1265:25729] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/762B3519-450B-4750-AAA3-117E68E45EC3/Thirukkural.app/www/index.html
+2015-04-21 19:21:26.738 Thirukkural[1460:26873] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/33BE97F0-9ECD-4E4D-A54C-C21AD8E2E2E2/Library/Cookies/Cookies.binarycookies
+2015-04-21 19:21:26.874 Thirukkural[1460:26873] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 19:21:26.874 Thirukkural[1460:26873] Multi-tasking -> Device: YES, App: YES
+2015-04-21 19:21:26.876 Thirukkural[1460:26873] Unlimited access to network resources
+2015-04-21 19:21:26.879 Thirukkural[1460:26873] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-21 19:21:27.242 Thirukkural[1460:26873] Resetting plugins due to page load.
+2015-04-21 19:21:27.355 Thirukkural[1460:26873] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/091A279B-2590-42F1-99D1-2E2AA1639404/Thirukkural.app/www/index.html
+2015-04-21 19:25:01.115 Thirukkural[1660:28380] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/FF9AEC1A-9CD1-451E-A5A1-635433B2671E/Library/Cookies/Cookies.binarycookies
+2015-04-21 19:25:01.251 Thirukkural[1660:28380] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 19:25:01.251 Thirukkural[1660:28380] Multi-tasking -> Device: YES, App: YES
+2015-04-21 19:25:01.252 Thirukkural[1660:28380] Unlimited access to network resources
+2015-04-21 19:25:01.257 Thirukkural[1660:28380] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-21 19:25:01.576 Thirukkural[1660:28380] Resetting plugins due to page load.
+2015-04-21 19:25:01.674 Thirukkural[1660:28380] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/405986F2-2871-4374-83EC-7D46287C0CBD/Thirukkural.app/www/index.html
+2015-04-21 19:30:31.166 Thirukkural[1864:30449] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Data/Application/2758D250-739F-4812-A181-3443472E3661/Library/Cookies/Cookies.binarycookies
+2015-04-21 19:30:31.307 Thirukkural[1864:30449] Apache Cordova native platform version 3.7.0 is starting.
+2015-04-21 19:30:31.307 Thirukkural[1864:30449] Multi-tasking -> Device: YES, App: YES
+2015-04-21 19:30:31.309 Thirukkural[1864:30449] Unlimited access to network resources
+2015-04-21 19:30:31.312 Thirukkural[1864:30449] 
+
+Started backup to iCloud! Please be careful.
+Your application might be rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines" at:
+https://developer.apple.com/icloud/documentation/data-storage/
+To disable web storage backup to iCloud, set the BackupWebStorage preference to "local" in the Cordova config.xml file
+
+2015-04-21 19:30:31.618 Thirukkural[1864:30449] Resetting plugins due to page load.
+2015-04-21 19:30:31.720 Thirukkural[1864:30449] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/8E8B54B2-EFF6-41D7-9240-96065114BC50/Thirukkural.app/www/index.html
+2015-04-21 19:30:58.835 Thirukkural[1864:30449] Resetting plugins due to page load.
+2015-04-21 19:30:59.016 Thirukkural[1864:30449] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/8E8B54B2-EFF6-41D7-9240-96065114BC50/Thirukkural.app/www/index.html
