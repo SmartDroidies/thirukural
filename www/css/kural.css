@@ -1,0 +1,56 @@
+.app-head , .menu-icon {
+	padding-left : 5px;
+	padding-top : 10px;
+	padding-bottom : 5px;
+	margin : auto;
+}
+
+.app-head {
+	text-align : center;
+}
+
+
+#app-status-div, .loadingContent {
+	display:  none;
+}
+
+/* Main Div Styling */
+.content, .menu {
+  padding: 50px 0 0 0;
+}
+
+
+.menu-control {
+	position: absolute;
+	margin: 5px;
+ 	padding: 5px;
+}
+
+/* Menu Styling */
+#menu  {
+	background: #d9edf7;
+	box-shadow: 5px 5px 5px #5F8496;	
+	position: absolute;
+	top: 0px;
+	z-index: 99;
+	display : none; 
+}
+
+#menu ul li {
+	border-bottom: 1px Solid #bce8f1;
+}
+
+#menu ul li  a {
+	font-size: 16px;
+	color: #245269;	
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+#menu ul li.nav-header {
+	font-size: 22px;
+	padding: 10px;
+	color: #1F1F1F;	
+	font-weight : bold;
+	background: #ACACAC;
+}

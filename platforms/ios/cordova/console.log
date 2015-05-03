@@ -98,3 +98,4 @@ To disable web storage backup to iCloud, set the BackupWebStorage preference to 
 2015-04-21 19:30:31.720 Thirukkural[1864:30449] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/8E8B54B2-EFF6-41D7-9240-96065114BC50/Thirukkural.app/www/index.html
 2015-04-21 19:30:58.835 Thirukkural[1864:30449] Resetting plugins due to page load.
 2015-04-21 19:30:59.016 Thirukkural[1864:30449] Finished load of: file:///Users/prasathbasuvaraj/Library/Developer/CoreSimulator/Devices/07B8D4A5-EBCE-4F93-A52F-8998C3C96A9C/data/Containers/Bundle/Application/8E8B54B2-EFF6-41D7-9240-96065114BC50/Thirukkural.app/www/index.html
+2015-04-21 20:06:14.504 Thirukkural[1864:45040] Terminating since there is no system app.
