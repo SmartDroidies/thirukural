@@ -5,7 +5,7 @@
   <title class="i18n">Thirukural</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/kural.css">
-  <script src="js/angular/angular.min.js"></script>
+  <script src="js/angular/angular.js"></script>
   <script src="js/angular-route/angular-route.min.js"></script>
   <script src="js/jquery/jquery.min.js"></script>
   <script src="js/underscore/underscore.js"></script>    
@@ -28,8 +28,7 @@
     <div class="navbar-header main-header">
       <img id="menu-cntrl" class="menu-control" src="images/menu.png"/>
       <div class="head_section">
-        <!--h3 class="app-head">{{ 'TITLE' | translate }}</h3-->
-        <h3 class="app-head">Thirukkural</h3>
+        <h3 class="app-head">{{ 'TITLE' | translate }}</h3>
       </div>
     </div>
     </div>
@@ -39,10 +38,11 @@
   </div>
   <div id="menu" class="menu">
     <ul class="nav nav-list">
-      <li><a href="#articles" onclick="hideMenu()">{{'KURAL' | translate}} Home</a></li>
-      <li><a href="#articles/1" onclick="hideMenu()">Arathu Paal</a></li>
-      <li><a href="#articles/1" onclick="hideMenu()">Porut Paal</a></li>
-      <li><a href="#articles/25" onclick="hideMenu()">Kaamathu Paal</a></li>
+      <li><a href="" onclick="hideMenu()">{{'HOME' | translate}}</a></li>
+      <li><a href="" onclick="hideMenu()">{{'VALLUVAR' | translate}}</a></li>
+      <li><a href="" onclick="hideMenu()">{{'ARATHU' | translate}}</a></li>
+      <li><a href="" onclick="hideMenu()">{{'PORUT' | translate}}</a></li>
+      <li><a href="" onclick="hideMenu()">{{'KAMATHU' | translate}}</a></li>
     </ul>
   </div>
   <!--Body content-->
