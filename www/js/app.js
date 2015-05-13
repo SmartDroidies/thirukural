@@ -1,12 +1,16 @@
 'use strict';
 /* App Module */
-var kuralApp = angular.module('kuralApp', ['ngRoute', 'ngSanitize', 'ngTouch', 'kuralControllers', 'pascalprecht.translate']);
+var kuralApp = angular.module('kuralApp', ['ngRoute', 'ngSanitize', 'ngTouch', 'kuralControllers', 'kuralServices', 'pascalprecht.translate']);
 
 kuralApp.config(['$routeProvider', 
 		function ($routeProvider) {
 			$routeProvider.when('/home', {
 				templateUrl : 'partials/home.html',
 				controller : 'HomeCtrl'
+			}).
+			when('/chapter/:section', {
+				templateUrl : 'partials/chapters.html',
+				controller : 'ChapterCtrl'
 			}).
 			otherwise({
 				redirectTo : '/home'

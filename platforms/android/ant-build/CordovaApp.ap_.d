@@ -32,6 +32,7 @@ E:\WorkSpace\Cordova\kural\platforms\android\assets\_where-is-www.txt \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\cordova.js \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\cordova_plugins.js \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\css \
+E:\WorkSpace\Cordova\kural\platforms\android\assets\www\data \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\images \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\img \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\index.html \
@@ -41,6 +42,8 @@ E:\WorkSpace\Cordova\kural\platforms\android\assets\www\css\bootstrap.css \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\css\bootstrap.css.map \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\css\index.css \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\css\kural.css \
+E:\WorkSpace\Cordova\kural\platforms\android\assets\www\data\chapter.json \
+E:\WorkSpace\Cordova\kural\platforms\android\assets\www\data\kural.json \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\images\ajax-loader.gif \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\images\menu.png \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\img\logo.png \
@@ -56,6 +59,7 @@ E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\controllers.js \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\index.js \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\jquery \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\jquery-i18n-properties \
+E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\service.js \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\thirukkural.js \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\underscore \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\angular\angular.js \
@@ -167,5 +171,6 @@ E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\jquery\jquery.min.map
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\jquery-i18n-properties\jquery.i18n.properties.js \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\underscore\angular-underscore-module.js \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\underscore\underscore.js \
+E:\WorkSpace\Cordova\kural\platforms\android\assets\www\partials\chapters.html \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\partials\home.html \
 E:\WorkSpace\Cordova\kural\platforms\android\ant-build\AndroidManifest.xml \

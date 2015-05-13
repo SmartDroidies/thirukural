@@ -7,7 +7,7 @@ function onDeviceReadyAction() {
 	if (lastSyncTime) {
 		//downloadLatestTips();
 	} else {
-		//loadInitialTips();	
+		loadInitialKural();	
 	}
 
 	// Manage Ad
@@ -38,6 +38,25 @@ function onDeviceReadyAction() {
 
 
 }
+
+
+//Load Initial Kural
+function loadInitialKural() {
+	var fileURL =  "data/kural.json";
+	jQuery.getJSON(fileURL, function (data) {
+		console.log( "Loading Initial Kural...");
+	}).done(function(data) {
+		window.localStorage.setItem("sync_time_kural", data.time);
+		window.localStorage.setItem("kural", JSON.stringify(data.tips));
+	}).fail(function() {
+		console.log( "Show Error Message" );
+	}).always(function() {
+		//var element = angular.element($("#tips-div"));
+		//element.scope().loadTips();
+		//element.scope().$apply();
+	});
+}
+
 
 function hidePopup() {
 	hideMenu();
