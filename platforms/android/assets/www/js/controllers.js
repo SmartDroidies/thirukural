@@ -17,15 +17,17 @@ kuralControllers.controller('HomeCtrl', ['$scope',
   }]
 );
 
-kuralControllers.controller('ChapterCtrl', ['$scope',  '$http',
-  function($scope,  $http) {
+kuralControllers.controller('ChapterCtrl', ['$scope',  '$http', '$routeParams', '_',
+  function($scope, $http, $routeParams) {
 	
 	$scope.loadChapters = function () {       
-		console.log('Load Chapters');
+		var section = $routeParams.section;
+		console.log('Section : ' + section);
 		$http.get('data/chapter.json').success(function(data) {
-    		$scope.chapters = data;
+			$scope.section = _.find(data, function(sec){ return sec.section == section; })
+    		$scope.chapters = $scope.section.chapters;
   		});
-		console.log('Load Chapters : ' + $scope.chapters);
+		//console.log('Load Chapters : ' + $scope.chapters);
 	};	
 
 	//Show Chapters

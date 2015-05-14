@@ -1,6 +1,6 @@
 'use strict';
 /* App Module */
-var kuralApp = angular.module('kuralApp', ['ngRoute', 'ngSanitize', 'ngTouch', 'kuralControllers', 'kuralServices', 'pascalprecht.translate']);
+var kuralApp = angular.module('kuralApp', ['ngRoute', 'ngSanitize', 'ngTouch', 'kuralControllers', 'kuralServices', 'pascalprecht.translate', 'underscore']);
 
 kuralApp.config(['$routeProvider', 
 		function ($routeProvider) {
