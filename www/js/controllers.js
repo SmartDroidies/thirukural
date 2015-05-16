@@ -27,13 +27,36 @@ kuralControllers.controller('ChapterCtrl', ['$scope',  '$http', '$routeParams', 
 			$scope.section = _.find(data, function(sec){ return sec.section == section; })
     		$scope.chapters = $scope.section.chapters;
   		});
-		//console.log('Load Chapters : ' + $scope.chapters);
 	};	
 
 	//Show Chapters
 	$scope.loadChapters();
   }]
 );
+
+kuralControllers.controller('SubChapterCtrl', ['$scope',  '$http', '$routeParams', '_',
+  function($scope, $http, $routeParams) {
+	
+	$scope.loadSubChapters = function () {       
+		var section = $routeParams.section;
+		var chapterId = $routeParams.id;
+		console.log('Section : ' + section + ", Chapter Id : " + chapterId);
+		$http.get('data/chapter.json').success(function(data) {
+			var sectionJson = _.find(data, function(sec){ return sec.section == section; })
+    		var chapters = sectionJson.chapters;
+    		var chapter = _.find(chapters, function(chap){ return chap.id == chapterId; })
+    		$scope.chapter = chapter;
+    		console.log('Chapter : ' + $scope.chapter);
+  		});
+	};	
+
+	//Show Chapters
+	$scope.loadSubChapters();
+  }]
+);
+
+
+
 
 
 kuralControllers.controller('ChapterCtrlOld', ['$scope', 'ChapterService',

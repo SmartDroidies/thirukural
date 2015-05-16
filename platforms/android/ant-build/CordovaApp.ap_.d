@@ -173,4 +173,5 @@ E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\underscore\angular-un
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\js\underscore\underscore.js \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\partials\chapters.html \
 E:\WorkSpace\Cordova\kural\platforms\android\assets\www\partials\home.html \
+E:\WorkSpace\Cordova\kural\platforms\android\assets\www\partials\sub-chapters.html \
 E:\WorkSpace\Cordova\kural\platforms\android\ant-build\AndroidManifest.xml \
