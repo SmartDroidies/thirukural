@@ -56,7 +56,7 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 		var kurals = self.fetchKural();
 		if(kurals) {
 			if(subchapid) {
-				//articles = _.filter(articles, function(item){ return item.cat_ID == category; });
+				kurals = _.filter(kurals, function(item){ console.log(item.category); return true; });
 			}	
 			//articles = _.sortBy(articles, "post_date").reverse();
 			console.log("Filtered Kural Length : " + kurals.length);

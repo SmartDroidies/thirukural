@@ -67,9 +67,28 @@
   	padding: 20px 10px 20px 10px;	
 }
 
+.sub-chapter {
+	margin: 5px 5px 5px 5px;
+  	padding: 10px 5px 10px 20px;		
+}
+
+.chapter {
+	margin: 5px;
+  	padding: 10px 5px 10px 5px;		
+}
+
+
 .cat_link  {
 	font-size : 20px;
 	font-weight: bold;
 	color : #0376B0;
 	text-decoration : none;
+}
+
+.cnt-sub-chapter {
+	margin-bottom: 5px;
+}
+
+.cnt-chapter {
+	margin-bottom: 5px;	
 }

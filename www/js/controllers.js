@@ -22,7 +22,7 @@ kuralControllers.controller('ChapterCtrl', ['$scope',  '$http', '$routeParams', 
 	
 	$scope.loadChapters = function () {       
 		var section = $routeParams.section;
-		console.log('Section : ' + section);
+		//console.log('Section : ' + section);
 		$http.get('data/chapter.json').success(function(data) {
 			$scope.section = _.find(data, function(sec){ return sec.section == section; })
     		$scope.chapters = $scope.section.chapters;
@@ -40,13 +40,13 @@ kuralControllers.controller('SubChapterCtrl', ['$scope',  '$http', '$routeParams
 	$scope.loadSubChapters = function () {       
 		var section = $routeParams.section;
 		var chapterId = $routeParams.id;
-		console.log('Section : ' + section + ", Chapter Id : " + chapterId);
+		//console.log('Section : ' + section + ", Chapter Id : " + chapterId);
 		$http.get('data/chapter.json').success(function(data) {
 			var sectionJson = _.find(data, function(sec){ return sec.section == section; })
     		var chapters = sectionJson.chapters;
     		var chapter = _.find(chapters, function(chap){ return chap.id == chapterId; })
     		$scope.chapter = chapter;
-    		console.log('Chapter : ' + $scope.chapter);
+    		//console.log('Chapter : ' + $scope.chapter);
   		});
 	};	
 
@@ -61,7 +61,7 @@ kuralControllers.controller('KuralListCtrl', ['$scope', '$routeParams', 'KuralSe
 	
 	$scope.listKural = function () {       
 		var subChapId = $routeParams.subid;
-		console.log('List Kural For  : ' + subChapId);
+		//console.log('List Kural For  : ' + subChapId);
 		var kurals = kuralService.collectKuralList(subChapId);
 		if (kurals === undefined || kurals === null) {
 			console.log('JSON is empty. Display Error');
@@ -75,8 +75,6 @@ kuralControllers.controller('KuralListCtrl', ['$scope', '$routeParams', 'KuralSe
 	$scope.listKural();
   }]
 );
-
-
 
 
 
