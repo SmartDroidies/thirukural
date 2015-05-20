@@ -56,10 +56,12 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 		var kurals = self.fetchKural();
 		if(kurals) {
 			if(subchapid) {
-				kurals = _.filter(kurals, function(item){ console.log(item.category); return true; });
+				kurals = _.filter(kurals, function(item) { 
+					return _.contains(item.category, parseInt(subchapid)); 
+				});
 			}	
 			//articles = _.sortBy(articles, "post_date").reverse();
-			console.log("Filtered Kural Length : " + kurals.length);
+			//console.log("Filtered Kural Length : " + kurals.length);
 		}
 		return kurals;
     }
