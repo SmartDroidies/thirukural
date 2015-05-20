@@ -16,6 +16,10 @@ kuralApp.config(['$routeProvider',
 				templateUrl : 'partials/sub-chapters.html',
 				controller : 'SubChapterCtrl'
 			}).
+			when('/kural/:subid', {
+				templateUrl : 'partials/kural-list.html',
+				controller : 'KuralListCtrl'
+			}).
 			otherwise({
 				redirectTo : '/home'
 			});

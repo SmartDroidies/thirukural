@@ -56,6 +56,27 @@ kuralControllers.controller('SubChapterCtrl', ['$scope',  '$http', '$routeParams
 );
 
 
+kuralControllers.controller('KuralListCtrl', ['$scope', '$routeParams', 'KuralService',
+  function($scope, $routeParams, kuralService) {
+	
+	$scope.listKural = function () {       
+		var subChapId = $routeParams.subid;
+		console.log('List Kural For  : ' + subChapId);
+		var kurals = kuralService.collectKuralList(subChapId);
+		if (kurals === undefined || kurals === null) {
+			console.log('JSON is empty. Display Error');
+			//FIXME - Display Message
+		} else {
+			$scope.kurals = kurals;
+		}
+	};	
+
+	//Show Chapters
+	$scope.listKural();
+  }]
+);
+
+
 
 
 

@@ -1,2 +1,2 @@
-E:\WorkSpace\Cordova\kural\platforms\android\ant-build\AndroidManifest.xml : \
-E:\WorkSpace\Cordova\kural\platforms\android\AndroidManifest.xml \
+/Users/prasathbasuvaraj/Documents/GitWorkSpace/Thirukkural/platforms/android/ant-build/AndroidManifest.xml : \
+/Users/prasathbasuvaraj/Documents/GitWorkSpace/Thirukkural/platforms/android/AndroidManifest.xml \
