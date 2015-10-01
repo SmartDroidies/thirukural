@@ -4,11 +4,15 @@
 
 var kuralControllers = angular.module('kuralControllers', []);
 
-kuralControllers.controller('HomeCtrl', ['$scope', 
-  function($scope) {
+kuralControllers.controller('HomeCtrl', ['$scope', 'StorageService',
+  function($scope, storageService) {
 	
 	$scope.loadHome = function () {       
 		console.log('Home Screen Loaded');
+
+		//Sync Local Data
+		storageService.syncDate();
+
 		$scope.status = 'Welcome User';
 	};	
 
@@ -26,7 +30,20 @@ kuralControllers.controller('ChapterCtrl', ['$scope',  '$http', '$routeParams', 
 		$http.get('data/chapter.json').success(function(data) {
 			$scope.section = _.find(data, function(sec){ return sec.section == section; })
     		$scope.chapters = $scope.section.chapters;
+    		$scope.chapter = $scope.chapters[0]; 
   		});
+	};	
+
+	$scope.listSubChapters = function (chapter) {       
+		//var section = $routeParams.section;
+		console.log('Chapters : ' + JSON.stringify(chapter));
+		$scope.chapter = chapter; 
+		/*
+		$http.get('data/chapter.json').success(function(data) {
+			$scope.section = _.find(data, function(sec){ return sec.section == section; })
+    		$scope.chapters = $scope.section.chapters;
+  		});
+		*/
 	};	
 
 	//Show Chapters

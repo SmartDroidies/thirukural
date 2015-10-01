@@ -1,9 +1,23 @@
-<div id="kural-list-div" class="listing">
-	<div class="list-group" ng-repeat="kural in kurals">
-		<a href="#/kural/{{kural.id}}" class="list-group-item list-item">
+<nav class="navbar navbar-fixed-top col-xs-12 main-header" role="navigation">
+	<div class="navbar-header col-xs-12">
+	  <div class="head_section">
+	    <h3 class="app-head">{{ 'TITLE' | translate }}</h3>
+	  </div>
+	</div>
+</nav>
+
+<div id="kural-list-div col-xs-12" class="listing">
+	<div class="panel panel-default" ng-repeat="kural in kurals">
+		<div class="panel-heading">
+            <h4 class="panel-title" ng-bind-html="kural.content"></h4>
+        </div>	
+ 		<div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body" ng-bind-html="kural.content"></div>
+        </div>        
+		<!--a href="#/kural/{{kural.id}}" class="list-group-item list-item">
 			<div id="feed-snippet">
 				<h4 class="list-group-item-heading"><p ng-bind-html="kural.content" class="list-group-item-text"></p></h4>
 			</div>	
-		</a>
+		</a-->
 	</div>	
 </div>

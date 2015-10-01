@@ -1,14 +1,40 @@
-<div id="main" class="nav-section ui-page-active" data-role="page">
-	<!--div class="alert alert-info ctgry" role="alert">
-	  	<a href="" class="cat_link alert-link">{{'VALLUVAR' | translate}}</a>
-	</div-->
-	<div class="alert alert-info ctgry" role="alert">
-		<a href="#chapter\ARATHU" class="cat_link alert-link">{{'ARATHU' | translate}}</a>
+<nav class="navbar navbar-fixed-top col-xs-12 main-header" role="navigation">
+	<div class="navbar-header col-xs-12">
+	  <img id="menu-cntrl" class="menu-control" src="images/menu.png"/>
+	  <div class="head_section">
+	    <h3 class="app-head">{{ 'TITLE' | translate }}</h3>
+	  </div>
 	</div>
-	<div class="alert alert-info ctgry" role="alert">
-		<a href="#chapter\PORUT" class="cat_link alert-link">{{'PORUT' | translate}}</a>
-	</div>
-	<div class="alert alert-info ctgry" role="alert">
-		<a href="#chapter\KAMATHU" class="cat_link alert-link">{{'KAMATHU' | translate}}</a>
-	</div>
+</nav>
+
+
+<div id="main" class="ui-page-active col-xs-12">
+	<div class="col-xs-4 section-left"> 
+		<img src="images/valluvar.png" class="img-home">
+	</div>	
+	<div class="col-xs-8 section-right">
+		<!--div class="ctgry">
+		  	<a href="" class="cat_link alert-link">{{'VALLUVAR' | translate}}</a>
+		</div-->
+		<div class="ctgry">
+			<a href="#chapter\ARATHU" class="cat_link alert-link">{{'ARATHU' | translate}}</a>
+		</div>
+		<div class="ctgry">
+			<a href="#chapter\PORUT" class="cat_link alert-link">{{'PORUT' | translate}}</a>
+		</div>
+		<div class="ctgry">
+			<a href="#chapter\KAMATHU" class="cat_link alert-link">{{'KAMATHU' | translate}}</a>
+		</div>
+	</div>	
 </div>
+
+
+  <!--div id="menu" class="menu">
+    <ul class="nav nav-list">
+      <li><a href="" onclick="hideMenu()">{{'HOME' | translate}}</a></li>
+      <li><a href="" onclick="hideMenu()">{{'VALLUVAR' | translate}}</a></li>
+      <li><a href="" onclick="hideMenu()">{{'ARATHU' | translate}}</a></li>
+      <li><a href="" onclick="hideMenu()">{{'PORUT' | translate}}</a></li>
+      <li><a href="" onclick="hideMenu()">{{'KAMATHU' | translate}}</a></li>
+    </ul>
+  </div-->

@@ -5,62 +5,31 @@
   <title class="i18n">Thirukural</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/kural.css">
-  <script src="js/angular/angular.js"></script>
-  <script src="js/angular-route/angular-route.min.js"></script>
-  <script src="js/jquery/jquery.min.js"></script>
-  <script src="js/underscore/underscore.js"></script>    
-  <script src="js/angular-resource/angular-resource.min.js"></script>    
-  <script src="js/angular-sanitize/angular-sanitize.min.js"></script>
-  <script src="js/angular-touch/angular-touch.min.js"></script>
-  <script src="js/angular-translate/angular-translate.min.js"></script>
-  <script src="js/underscore/angular-underscore-module.js"></script>  
-  <script src="js/jquery-i18n-properties/jquery.i18n.properties.js"></script>
-  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>  
-  <script src="js/thirukkural.js"></script>       
-  <script src="js/app.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/service.js"></script>
-  <!--script src="js/notify.js"></script-->
 </head>
-<body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-    <div class="navbar-header main-header">
-      <img id="menu-cntrl" class="menu-control" src="images/menu.png"/>
-      <div class="head_section">
-        <h3 class="app-head">{{ 'TITLE' | translate }}</h3>
-      </div>
+  <body class="body col-xs-12">
+
+    <div ng-view class="content col-xs-12"> 
+
     </div>
-    </div>
-  </nav>
-  <div ng-view class="content">
-        
-  </div>
-  <div id="menu" class="menu">
-    <ul class="nav nav-list">
-      <li><a href="" onclick="hideMenu()">{{'HOME' | translate}}</a></li>
-      <!--li><a href="" onclick="hideMenu()">{{'VALLUVAR' | translate}}</a></li-->
-      <li><a href="" onclick="hideMenu()">{{'ARATHU' | translate}}</a></li>
-      <li><a href="" onclick="hideMenu()">{{'PORUT' | translate}}</a></li>
-      <li><a href="" onclick="hideMenu()">{{'KAMATHU' | translate}}</a></li>
-    </ul>
-  </div>
-  <!--Body content-->
-  <div class="container-fluid">
-    <div id="loadingWidget" class="row-fluid ui-corner-all">
-      <div class="loadingContent">
-        <img id="loader" alt="Loading  Content" src="images/ajax-loader.gif" /> 
-      </div>
-    </div>
-    <div id="popup-error" class="row-fluid ui-corner-all error">
-      <p id="popup-content" class="error-content"></p>
-    </div>        
-  </div>  
-  <!-- Div to display status -->  
-  <div id="app-status-div">
-    <ul id="app-status-ul">
-      <li>Cordova PushNotification Plugin Demo</li>
-    </ul>
-  </div>
-</body>
+    <div class="navbar navbar-fixed-bottom col-xs-12 main-footer"> &nbsp;</div> 
+
+    <script src="js/angular/angular.js"></script>
+    <script src="js/angular-route/angular-route.min.js"></script>
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/underscore/underscore.js"></script>    
+    <script src="js/angular-resource/angular-resource.min.js"></script>    
+    <script src="js/angular-sanitize/angular-sanitize.min.js"></script>
+    <script src="js/angular-touch/angular-touch.min.js"></script>
+    <script src="js/angular-translate/angular-translate.min.js"></script>
+    <script src="js/underscore/angular-underscore-module.js"></script>  
+    <script src="js/jquery-i18n-properties/jquery.i18n.properties.js"></script>
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>  
+    <script type="text/javascript" src="js/index.js"></script>  
+    <script src="js/thirukkural.js"></script>       
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/service.js"></script>
+    <!--script src="js/notify.js"></script-->
+
+  </body>
 </html>
