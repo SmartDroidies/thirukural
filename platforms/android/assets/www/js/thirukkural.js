@@ -13,9 +13,8 @@ function onDeviceReadyAction() {
 	*/
 
 	// Manage Ad
-	//showBannerAd();
-	//initializeInterAd();
-	
+	initializeAd();
+
 	//Handle Menu 
 	$( "#menu-cntrl" ).click(function() {
 		if($("#menu").is(":visible")) {
@@ -145,3 +144,39 @@ function hideMenu() {
 function hideSetting() {
 	$("#setting").hide(200);
 }
+
+
+
+function initializeAd() {
+
+	admob.initAdmob("ca-app-pub-8439744074965483/1680062851","ca-app-pub-8439744074965483/6529064851");
+    document.addEventListener(admob.Event.onInterstitialReceive, onInterstitialReceive, false);
+    document.addEventListener(admob.Event.onInterstitialFailedReceive,onReceiveFail, false);
+    document.addEventListener(admob.Event.onBannerFailedReceive,onReceiveFail, false);
+
+    admob.showBanner(admob.BannerSize.SMART_BANNER, admob.Position.BOTTOM_CENTER, null);
+  	admob.cacheInterstitial();
+
+}
+
+//Load AdMob Interstitial Ad
+function showInterstitial(){
+    admob.isInterstitialReady(function(isReady){
+        if(isReady){
+            admob.showInterstitial();
+        }
+    });
+}
+
+function onInterstitialReceive (message) {
+    //alert(message.type + " ,you can show it now");
+    //admob.showInterstitial();//show it when received
+}
+
+function onReceiveFail (message) {
+ 	var msg=admob.Error[message.data];
+    if(msg==undefined){
+       msg=message.data;
+    }
+    //console.log("load fail: " + message.type + "  " + msg);
+} 

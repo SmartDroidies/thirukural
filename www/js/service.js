@@ -24,7 +24,7 @@ kuralServices.factory ('ChapterService', ['$http', function ($http) {
 
 
 //Factory for loading the kural from Local Storage
-kuralServices.factory ('StorageService', function () {
+kuralServices.factory ('StorageService', function (_) {
 	var storageFactory = {}; 
 	var keyKurals =  "kurals";
 	var keySyncTime =  "sync_time_kural";
@@ -34,9 +34,10 @@ kuralServices.factory ('StorageService', function () {
 
 	//Collect Kurals from storage
 	storageFactory.collectKural = function () {	
+		var kurals = [];
 		var data =  window.localStorage.getItem(keyKurals);
-		console.log('Collecting kural from Local Storage');
-		return JSON.parse(data);
+		var kuralJSON = JSON.parse(data); 
+		return kuralJSON;
 	}
 
 	//Sync Kurals
@@ -141,6 +142,7 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
     factory.collectKuralList = function(subchapid) {
 		var self = this;
 		var kurals = self.fetchKural();
+		var kuralsSorted = [];
 		if(kurals) {
 			if(subchapid) {
 				kurals = _.filter(kurals, function(item) { 
@@ -149,8 +151,47 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 			}	
 			//articles = _.sortBy(articles, "post_date").reverse();
 			//console.log("Filtered Kural Length : " + kurals.length);
+
+			_.each(kurals, function(kural) { 
+				//console.log(JSON.stringify(kural.content)); 
+				var kuralNo, kuralLine1, kuralLine2, kuralDesc;
+
+				var el = document.createElement('html');
+				el.innerHTML = kural.content;
+
+				//Collect Kural Number
+				var elemStrong = el.getElementsByTagName('strong');
+				if(elemStrong[0].textContent) {
+					var arrKuralNo = elemStrong[0].textContent.split(' ');	
+					if(arrKuralNo.length > 1) {
+						kuralNo = arrKuralNo[1]; 
+					}
+					//console.log("Kural Array Size : " + arrKuralNo);
+				}
+
+				//Collect Kural 
+				var elemEm = el.getElementsByTagName('em');
+				if(elemEm.length > 1) {
+					kuralLine1 = elemEm[0].textContent;
+					kuralLine2 = elemEm[1].textContent;
+				}
+
+				var idx = kural.content.lastIndexOf('strong');
+				kuralDesc = kural.content.substr(idx+10);
+				//console.log("Kural Desc : " + kuralDesc);
+
+				//If kural is defined
+				if(typeof kuralNo !== "undefined" && typeof kuralLine1 !== "undefined" && typeof kuralLine2 !== "undefined") {
+					var kuralProcessed = { "no" : kuralNo, "line1" : kuralLine1, "line2" : kuralLine2, "vilakkam" : kuralDesc , "panel" : "panel-" + kuralNo};
+					kuralsSorted.push(kuralProcessed);
+				}
+
+			});
+
 		}
-		return kurals;
+
+		//console.log('Collecting kural for Sub Category : ' + JSON.stringify(kuralsSorted));
+		return kuralsSorted;
     }
 	
     return factory;

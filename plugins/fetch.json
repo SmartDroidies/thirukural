@@ -1,0 +1,10 @@
+{
+    "admob": {
+        "source": {
+            "type": "registry",
+            "id": "admob"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

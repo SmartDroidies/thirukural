@@ -36,7 +36,7 @@ kuralControllers.controller('ChapterCtrl', ['$scope',  '$http', '$routeParams', 
 
 	$scope.listSubChapters = function (chapter) {       
 		//var section = $routeParams.section;
-		console.log('Chapters : ' + JSON.stringify(chapter));
+		//console.log('Chapters : ' + JSON.stringify(chapter));
 		$scope.chapter = chapter; 
 		/*
 		$http.get('data/chapter.json').success(function(data) {
@@ -87,6 +87,13 @@ kuralControllers.controller('KuralListCtrl', ['$scope', '$routeParams', 'KuralSe
 			$scope.kurals = kurals;
 		}
 	};	
+
+	$scope.collapse = function (panelId) {
+		//alert('Perform Expand Collapse : ' + panelId);	
+		//angular.element(panelId).collapse();
+		document.getElementById(panelId).collapse();
+
+	};
 
 	//Show Chapters
 	$scope.listKural();

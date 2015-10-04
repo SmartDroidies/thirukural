@@ -6,18 +6,15 @@
 	</div>
 </nav>
 
-<div id="kural-list-div col-xs-12" class="listing">
-	<div class="panel panel-default" ng-repeat="kural in kurals">
-		<div class="panel-heading">
-            <h4 class="panel-title" ng-bind-html="kural.content"></h4>
+<div id="kural-list-accord" class="listing col-xs-12">
+	<div class="panel panel-default panel-kural" ng-repeat="kural in kurals">
+		<div class="panel-heading panel-kural-head" data-toggle="collapse" data-parent="#kural-list-accord" data-target="#{{kural.panel}}">
+    		<h4 class="panel-title kural-line" ng-bind-html="kural.line1" ></h4>
+    		<h4 class="panel-title kural-line" ng-bind-html="kural.line2" ></h4>
         </div>	
- 		<div id="collapseOne" class="panel-collapse collapse">
-            <div class="panel-body" ng-bind-html="kural.content"></div>
+
+ 		<div id="{{ kural.panel }}" class="panel-collapse collapse">
+            <div class="panel-body panel-body-kural" ng-bind-html="kural.vilakkam"></div>
         </div>        
-		<!--a href="#/kural/{{kural.id}}" class="list-group-item list-item">
-			<div id="feed-snippet">
-				<h4 class="list-group-item-heading"><p ng-bind-html="kural.content" class="list-group-item-text"></p></h4>
-			</div>	
-		</a-->
 	</div>	
 </div>
