@@ -8,12 +8,14 @@
 
 <div class="main-content col-xs-12">
 	<div class="col-xs-6 cnt-chapter">
-		<div class="chapter" ng-repeat="chap in chapters" ng-click="listSubChapters(chap)" ng-class="{active: chap.id==chapter.id}">
+		<div class="chapter" ng-repeat="chap in chapters | orderBy: 'sequence'" ng-click="listSubChapters(chap)" ng-class="{active: chap.id==chapter.id}">
+		  	<!--div class="chapter_link">{{chap.id}} - {{chap.name}} - {{chap.slug}}</div-->
 		  	<div class="chapter_link">{{chap.name}}</div>
 		</div>
 	</div>	
 	<div class="col-xs-6 cnt-sub-chapter">
-		<div class="sub-chapter" ng-repeat="sub in chapter.subchapters">
+		<div class="sub-chapter" ng-repeat="sub in chapter.subchapters | orderBy: 'sequence'">
+		  	<!--a href="#kural\{{sub.id}}" class="sub_chapter_link">{{sub.id}} - {{sub.name}} - {{sub.slug}}</a-->
 		  	<a href="#kural\{{sub.id}}" class="sub_chapter_link">{{sub.name}}</a>
 		</div>
 	</div>	

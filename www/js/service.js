@@ -153,7 +153,7 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 			//console.log("Filtered Kural Length : " + kurals.length);
 
 			_.each(kurals, function(kural) { 
-				//console.log(JSON.stringify(kural.content)); 
+				console.log("Content : " + kural.content); 
 				var kuralNo, kuralLine1, kuralLine2, kuralDesc;
 
 				var el = document.createElement('html');

@@ -1,9 +1,44 @@
 [{
 	"section": "ARATHU",
-	"id": 44,
-	"chapters": [{
+	"id": 1,
+	"sequence" : 1,
+	"chapters": [
+	{
+		"name": "\u0baa\u0bbe\u0baf\u0bbf\u0bb0\u0bb5\u0bbf\u0baf\u0bb2\u0bcd",
+		"id": 2,
+		"slug" : "paayiram",
+		"sequence": 1,
+		"subchapters": [{
+				"name": "\u0b95\u0b9f\u0bb5\u0bc1\u0bb3\u0bcd \u0bb5\u0bbe\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1",
+				"id": 3,
+				"slug" : "kadavul_vazthu",
+				"sequence": 1
+			},
+			{
+				"name": "\u0bb5\u0bbe\u0ba9\u0bcd \u0b9a\u0bbf\u0bb1\u0baa\u0bcd\u0baa\u0bc1",
+				"id": 9,
+				"slug" : "vaan_sakthi",
+				"sequence": 2
+			},
+			{
+				"name": "\u0ba8\u0bc0\u0ba4\u0bcd\u0ba4\u0bbe\u0bb0\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bc8",
+				"id": 11,
+				"slug" : "neethaar_perumai",
+				"sequence": 3
+			},
+			{
+				"name": "\u0b85\u0bb1\u0ba9\u0bcd\u0bb5\u0bb2\u0bbf\u0baf\u0bc1\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd",
+				"id": 12,
+				"slug" : "aranvaliyuruthal",
+				"sequence": 4
+			}
+		]
+	},
+	{
 		"name": "\u0b87\u0bb2\u0bcd\u0bb2\u0bb1\u0bb5\u0bbf\u0baf\u0bb2\u0bcd",
+		"slug" : "illaraviyal",
 		"id": 13,
+		"sequence": 2,
 		"subchapters": [{
 				"name": "\u0ba8\u0b9f\u0bc1\u0bb5\u0bc1 \u0ba8\u0bbf\u0bb2\u0bc8\u0bae\u0bc8",
 				"id": 21
@@ -85,6 +120,8 @@
 	{
 		"name": "\u0b8a\u0bb4\u0bbf\u0baf\u0bb2\u0bcd",
 		"id": 48,
+		"slug" : "oozhiyal",
+		"sequence": 4,
 		"subchapters": [{
 				"name": "\u0b8a\u0bb4\u0bcd",
 				"id": 49
@@ -93,6 +130,8 @@
 	{
 		"name": "\u0ba4\u0bc1\u0bb1\u0bb5\u0bb1\u0bb5\u0bbf\u0baf\u0bb2\u0bcd",
 		"id": 34,
+		"slug" : "thuravaraviyal",
+		"sequence": 3,		
 		"subchapters": [{
 				"name": "\u0b85\u0bb0\u0bc1\u0bb3\u0bc1\u0b9f\u0bc8\u0bae\u0bc8",
 				"id": 35
@@ -144,27 +183,6 @@
 			{
 				"name": "\u0b85\u0bb5\u0bbe\u0bb5\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd",
 				"id": 47
-			}
-		]
-	},
-	{
-		"name": " \u0baa\u0bbe\u0baf\u0bbf\u0bb0\u0bb5\u0bbf\u0baf\u0bb2\u0bcd",
-		"id": 2,
-		"subchapters": [{
-				"name": "\u0b95\u0b9f\u0bb5\u0bc1\u0bb3\u0bcd \u0bb5\u0bbe\u0bb4\u0bcd\u0ba4\u0bcd\u0ba4\u0bc1",
-				"id": 3
-			},
-			{
-				"name": "\u0bb5\u0bbe\u0ba9\u0bcd \u0b9a\u0bbf\u0bb1\u0baa\u0bcd\u0baa\u0bc1",
-				"id": 9
-			},
-			{
-				"name": "\u0ba8\u0bc0\u0ba4\u0bcd\u0ba4\u0bbe\u0bb0\u0bcd \u0baa\u0bc6\u0bb0\u0bc1\u0bae\u0bc8",
-				"id": 11
-			},
-			{
-				"name": "\u0b85\u0bb1\u0ba9\u0bcd\u0bb5\u0bb2\u0bbf\u0baf\u0bc1\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd",
-				"id": 12
 			}
 		]
 	}]
@@ -258,7 +276,8 @@
 			},
 			{
 				"name": "\u0bb5\u0bb2\u0bbf\u0baf\u0bb1\u0bbf\u0ba4\u0bb2\u0bcd",
-				"id": 61
+				"id": 61,
+				"sequence" : 1
 			},
 			{
 				"name": "\u0bb5\u0bb2\u0bbf\u0baf\u0bb1\u0bbf\u0ba4\u0bb2\u0bcd",
@@ -266,7 +285,8 @@
 			},
 			{
 				"name": "\u0b95\u0bbe\u0bb2\u0bae\u0bb1\u0bbf\u0ba4\u0bb2\u0bcd",
-				"id": 63
+				"id": 63,
+				"sequence" : 2
 			},
 			{
 				"name": "\u0b87\u0b9f\u0ba9\u0bb1\u0bbf\u0ba4\u0bb2\u0bcd",
@@ -274,7 +294,8 @@
 			},
 			{
 				"name": "\u0ba4\u0bc6\u0bb0\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1\u0ba4\u0bc6\u0bb3\u0bbf\u0ba4\u0bb2\u0bcd",
-				"id": 65
+				"id": 65,
+				"sequence" : 3
 			},
 			{
 				"name": "\u0ba4\u0bc6\u0bb0\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1\u0bb5\u0bbf\u0ba9\u0bc8\u0baf\u0bbe\u0b9f\u0bb2\u0bcd",
