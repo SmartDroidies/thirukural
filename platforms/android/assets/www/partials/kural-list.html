@@ -9,6 +9,7 @@
 <div id="kural-list-accord" class="listing col-xs-12">
 	<div class="panel panel-default panel-kural" ng-repeat="kural in kurals">
 		<div class="panel-heading panel-kural-head" data-toggle="collapse" data-parent="#kural-list-accord" data-target="#{{kural.panel}}">
+			<div class="kural-no">{{'KURAL' | translate}} - {{kural.no}}</div>
     		<h4 class="panel-title kural-line" ng-bind-html="kural.line1" ></h4>
     		<h4 class="panel-title kural-line" ng-bind-html="kural.line2" ></h4>
         </div>	

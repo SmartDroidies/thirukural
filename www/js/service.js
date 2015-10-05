@@ -146,14 +146,15 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 		if(kurals) {
 			if(subchapid) {
 				kurals = _.filter(kurals, function(item) { 
+					//console.log("ID's " + item.category + " - " + parseInt(subchapid));
 					return _.contains(item.category, parseInt(subchapid)); 
 				});
 			}	
 			//articles = _.sortBy(articles, "post_date").reverse();
-			//console.log("Filtered Kural Length : " + kurals.length);
+			//console.log("Filtered Kural : " + JSON.stringify(kurals));
 
 			_.each(kurals, function(kural) { 
-				console.log("Content : " + kural.content); 
+				//console.log("Content : " + kural.content); 
 				var kuralNo, kuralLine1, kuralLine2, kuralDesc;
 
 				var el = document.createElement('html');
@@ -164,7 +165,7 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 				if(elemStrong[0].textContent) {
 					var arrKuralNo = elemStrong[0].textContent.split(' ');	
 					if(arrKuralNo.length > 1) {
-						kuralNo = arrKuralNo[1]; 
+						kuralNo = parseInt(arrKuralNo[1]); 
 					}
 					//console.log("Kural Array Size : " + arrKuralNo);
 				}
@@ -184,12 +185,18 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 				if(typeof kuralNo !== "undefined" && typeof kuralLine1 !== "undefined" && typeof kuralLine2 !== "undefined") {
 					var kuralProcessed = { "no" : kuralNo, "line1" : kuralLine1, "line2" : kuralLine2, "vilakkam" : kuralDesc , "panel" : "panel-" + kuralNo};
 					kuralsSorted.push(kuralProcessed);
+				} else {
+					console.log("Invalid Format : " + kural.content);
 				}
 
 			});
 
 		}
 
+		if(kuralsSorted.length > 0) {
+			kuralsSorted = _.sortBy(kuralsSorted, "no"); 	
+		}
+		
 		//console.log('Collecting kural for Sub Category : ' + JSON.stringify(kuralsSorted));
 		return kuralsSorted;
     }
