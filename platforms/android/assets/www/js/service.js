@@ -110,7 +110,7 @@ kuralServices.factory ('StorageService', function (_) {
 					localJSON.push(item);
 				} 
 			});
-			window.localStorage.setItem(keyQuotes, JSON.stringify(localJSON));
+			window.localStorage.setItem(keyKurals, JSON.stringify(localJSON));
 			var modifiedTime = remoteJSON.time;
 			if(typeof modifiedTime != 'undefined') {
 				window.localStorage.setItem(keySyncTime, remoteJSON.time);
