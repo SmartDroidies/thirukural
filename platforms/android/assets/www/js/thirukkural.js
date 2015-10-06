@@ -13,7 +13,7 @@ function onDeviceReadyAction() {
 	*/
 
 	// Manage Ad
-	//initializeAd();
+	initializeAd();
 
 	//Handle Menu 
 	$( "#menu-cntrl" ).click(function() {
