@@ -178,7 +178,7 @@
 }
 
 .kural-no {
-	top: 0px;
+	bottom: 0px;
     right: 0px;
     position: absolute;
 	padding: 2px 5px;

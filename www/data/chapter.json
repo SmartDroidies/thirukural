@@ -41,79 +41,123 @@
 		"sequence": 2,
 		"subchapters": [{
 				"name": "\u0ba8\u0b9f\u0bc1\u0bb5\u0bc1 \u0ba8\u0bbf\u0bb2\u0bc8\u0bae\u0bc8",
-				"id": 21
+				"id": 21,
+				"slug" : "naduvu_nilai",
+				"sequence": 8
 			},
 			{
 				"name": "\u0b85\u0b9f\u0b95\u0bcd\u0b95\u0bae\u0bc1\u0b9f\u0bc8\u0bae\u0bc8",
-				"id": 22
+				"id": 22,
+				"slug" : "adakkam_udaimai",
+				"sequence": 9
 			},
 			{
 				"name": "\u0b92\u0bb4\u0bc1\u0b95\u0bcd\u0b95\u0bae\u0bc1\u0b9f\u0bc8\u0bae\u0bc8",
-				"id": 23
+				"id": 23,
+				"slug" : "ozukkam_udaimai",
+				"sequence": 10
 			},
 			{
 				"name": "\u0baa\u0bbf\u0bb1\u0ba9\u0bbf\u0bb2\u0bcd \u0bb5\u0bbf\u0bb4\u0bc8\u0baf\u0bbe\u0bae\u0bc8",
-				"id": 24
+				"id": 24,
+				"slug" : "piranil_vizayamai",
+				"sequence": 11
 			},
 			{
 				"name": "\u0baa\u0bca\u0bb1\u0bc8\u0baf\u0bc1\u0b9f\u0bc8\u0bae\u0bc8",
-				"id": 25
+				"id": 25,
+				"slug" : "porumai_udaimai",
+				"sequence": 12
 			},
 			{
 				"name": "\u0b85\u0bb4\u0bc1\u0b95\u0bcd\u0b95\u0bbe\u0bb1\u0bbe\u0bae\u0bc8",
-				"id": 26
+				"id": 26,
+				"slug" : "azukaaramai",
+				"sequence": 13
 			},
 			{
 				"name": "\u0bb5\u0bc6\u0b83\u0b95\u0bbe\u0bae\u0bc8",
-				"id": 27
+				"id": 27,
+				"slug" : "Vekkamai",
+				"sequence": 14
 			},
 			{
 				"name": "\u0baa\u0bc1\u0bb1\u0b99\u0bcd\u0b95\u0bc2\u0bb1\u0bbe\u0bae\u0bc8",
-				"id": 28
+				"id": 28,
+				"slug" : "Poorankooramai",
+				"sequence": 15
 			},
 			{
 				"name": "\u0baa\u0baf\u0ba9\u0bbf\u0bb2 \u0b9a\u0bca\u0bb2\u0bcd\u0bb2\u0bbe\u0bae\u0bc8",
-				"id": 29
+				"id": 29,
+				"slug" : "payanila_sollamai",
+				"sequence": 16
 			},
 			{
 				"name": "\u0ba4\u0bc0\u0bb5\u0bbf\u0ba9\u0bc8\u0baf\u0b9a\u0bcd\u0b9a\u0bae\u0bcd",
-				"id": 30
+				"id": 30,
+				"slug" : "theevinai_acham",
+				"sequence": 17
 			},
 			{
 				"name": "\u0b92\u0baa\u0bcd\u0baa\u0bc1\u0bb0\u0bb5\u0bb1\u0bbf\u0ba4\u0bb2\u0bcd",
-				"id": 31
+				"id": 31,
+				"slug" : "oppuravaridal",
+				"sequence": 18
 			},
 			{
 				"name": "\u0b88\u0b95\u0bc8",
-				"id": 32
+				"id": 32,
+				"slug" : "iigai",
+				"sequence": 19
 			},
 			{
 				"name": "\u0baa\u0bc1\u0b95\u0bb4\u0bcd",
-				"id": 33
+				"id": 33,
+				"slug" : "pugaz",
+				"sequence": 20
 			},
 			{
 				"name": "\u0b87\u0bb2\u0bcd\u0bb5\u0bbe\u0bb4\u0bcd\u0b95\u0bcd\u0b95\u0bc8",
-				"id": 14
+				"id": 14,
+				"slug" : "ilvazkai",
+				"sequence": 1
 			},
 			{
 				"name": "\u0bb5\u0bbe\u0bb4\u0bcd\u0b95\u0bcd\u0b95\u0bc8\u0ba4\u0bcd \u0ba4\u0bc1\u0ba3\u0bc8\u0ba8\u0bb2\u0bae\u0bcd",
-				"id": 15
+				"id": 15,
+				"slug" : "vazkai_thunainalam",
+				"sequence": 2
 			},
 			{
 				"name": "\u0baa\u0bc1\u0ba4\u0bb2\u0bcd\u0bb5\u0bb0\u0bc8\u0baa\u0bcd \u0baa\u0bc6\u0bb1\u0bc1\u0ba4\u0bb2\u0bcd",
-				"id": 16
+				"id": 16,
+				"slug" : "pudalvari_perudhal",
+				"sequence": 3
 			},
 			{
 				"name": "\u0b85\u0ba9\u0bcd\u0baa\u0bc1\u0b9f\u0bc8\u0bae\u0bc8",
-				"id": 17
+				"id": 17,
+				"slug" : "anbudaimai",
+				"sequence": 4
 			},
 			{
 				"name": "\u0bb5\u0bbf\u0bb0\u0bc1\u0ba8\u0bcd\u0ba4\u0bcb\u0bae\u0bcd\u0baa\u0bb2\u0bcd",
-				"id": 18
+				"id": 18,
+				"slug" : "virundombal",
+				"sequence": 5
 			},
 			{
 				"name": "\u0b87\u0ba9\u0bbf\u0baf\u0bb5\u0bc8\u0b95\u0bc2\u0bb1\u0bb2\u0bcd",
-				"id": 19
+				"id": 19,
+				"slug" : "iniyavai_kooral",
+				"sequence": 6
+			},
+			{
+				"name": "\u0b9a\u0bc6\u0baf\u0bcd\u0ba8\u0bcd\u0ba8\u0ba9\u0bcd\u0bb1\u0bbf \u0b85\u0bb1\u0bbf\u0ba4\u0bb2\u0bcd",
+				"id": 20,
+				"slug" : "sainanri_aridal",
+				"sequence": 7
 			}
 		]
 	},
@@ -134,55 +178,81 @@
 		"sequence": 3,		
 		"subchapters": [{
 				"name": "\u0b85\u0bb0\u0bc1\u0bb3\u0bc1\u0b9f\u0bc8\u0bae\u0bc8",
-				"id": 35
+				"id": 35,
+				"slug" : "kadavul_vazthu",
+				"sequence": 1
 			},
 			{
 				"name": "\u0baa\u0bc1\u0bb2\u0bbe\u0ba9\u0bcd\u0bae\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd",
-				"id": 36
+				"id": 36,
+				"slug" : "kadavul_vazthu",
+				"sequence": 2
 			},
 			{
 				"name": "\u0ba4\u0bb5\u0bae\u0bcd",
-				"id": 37
+				"id": 37,
+				"slug" : "kadavul_vazthu",
+				"sequence": 3
 			},
 			{
 				"name": "\u0b95\u0bc2\u0b9f\u0bbe\u0bb5\u0bca\u0bb4\u0bc1\u0b95\u0bcd\u0b95\u0bae\u0bcd",
-				"id": 38
+				"id": 38,
+				"slug" : "kadavul_vazthu",
+				"sequence": 4
 			},
 			{
 				"name": "\u0b95\u0bb3\u0bcd\u0bb3\u0bbe\u0bae\u0bc8",
-				"id": 39
+				"id": 39,
+				"slug" : "kadavul_vazthu",
+				"sequence": 5
 			},
 			{
 				"name": "\u0bb5\u0bbe\u0baf\u0bcd\u0bae\u0bc8",
-				"id": 40
+				"id": 40,
+				"slug" : "kadavul_vazthu",
+				"sequence": 6
 			},
 			{
 				"name": "\u0bb5\u0bc6\u0b95\u0bc1\u0bb3\u0bbe\u0bae\u0bc8",
-				"id": 41
+				"id": 41,
+				"slug" : "kadavul_vazthu",
+				"sequence": 7
 			},
 			{
 				"name": "\u0b87\u0ba9\u0bcd\u0ba9\u0bbe\u0b9a\u0bc6\u0baf\u0bcd\u0baf\u0bbe\u0bae\u0bc8",
-				"id": 42
+				"id": 42,
+				"slug" : "kadavul_vazthu",
+				"sequence": 8
 			},
 			{
 				"name": "\u0b95\u0bca\u0bb2\u0bcd\u0bb2\u0bbe\u0bae\u0bc8",
-				"id": 43
+				"id": 43,
+				"slug" : "kadavul_vazthu",
+				"sequence": 9
 			},
 			{
 				"name": "\u0ba8\u0bbf\u0bb2\u0bc8\u0baf\u0bbe\u0bae\u0bc8",
-				"id": 44
+				"id": 44,
+				"slug" : "kadavul_vazthu",
+				"sequence": 10
 			},
 			{
 				"name": "\u0ba4\u0bc1\u0bb1\u0bb5\u0bc1",
-				"id": 45
+				"id": 45,
+				"slug" : "kadavul_vazthu",
+				"sequence": 11
 			},
 			{
 				"name": "\u0bae\u0bc6\u0baf\u0bcd\u0baf\u0bc1\u0ba3\u0bb0\u0bcd\u0ba4\u0bb2\u0bcd",
-				"id": 46
+				"id": 46,
+				"slug" : "kadavul_vazthu",
+				"sequence": 12
 			},
 			{
 				"name": "\u0b85\u0bb5\u0bbe\u0bb5\u0bb1\u0bc1\u0ba4\u0bcd\u0ba4\u0bb2\u0bcd",
-				"id": 47
+				"id": 47,
+				"slug" : "kadavul_vazthu",
+				"sequence": 13
 			}
 		]
 	}]

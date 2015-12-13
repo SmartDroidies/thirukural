@@ -175,18 +175,37 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 				if(elemEm.length > 1) {
 					kuralLine1 = elemEm[0].textContent;
 					kuralLine2 = elemEm[1].textContent;
+				} else if (elemEm.length == 1) {
+					var kuralLines = elemEm[0].textContent.split('\n');
+					if(kuralLines.length ==2) {
+						kuralLine1 = kuralLines[0];
+						kuralLine2 = kuralLines[1];
+					} else {
+						console.log("Invalid No of Lines : " + kuralLines.length + " -" + elemEm[0].textContent);
+					}
+					/*
+					if(kuralWords.length >= 7) {
+						kuralLine1 = kuralWords.slice(4).join(' ');	
+						kuralLine2 = kuralWords.slice(-3).join(' ');	
+					} else {
+						console.log("Invalid No of Words : " + kuralWords.length + " -" + elemEm[0].textContent);
+					}
+					*/
 				}
 
 				var idx = kural.content.lastIndexOf('strong');
-				kuralDesc = kural.content.substr(idx+10);
+				kuralDesc = kural.content.substr(idx+8);
 				//console.log("Kural Desc : " + kuralDesc);
 
 				//If kural is defined
-				if(typeof kuralNo !== "undefined" && typeof kuralLine1 !== "undefined" && typeof kuralLine2 !== "undefined") {
+				if(typeof kuralNo !== "undefined" && typeof kuralLine1 !== "undefined") {
 					var kuralProcessed = { "no" : kuralNo, "line1" : kuralLine1, "line2" : kuralLine2, "vilakkam" : kuralDesc , "panel" : "panel-" + kuralNo};
 					kuralsSorted.push(kuralProcessed);
 				} else {
 					console.log("Invalid Format : " + kural.content);
+					console.log("kuralNo : " + kuralNo);
+					console.log("kuralLine1 : " + kuralLine1);
+					console.log("kuralLine2 : " + kuralLine2);
 				}
 
 			});
