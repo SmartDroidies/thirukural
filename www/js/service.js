@@ -166,8 +166,10 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 					var arrKuralNo = elemStrong[0].textContent.split(' ');	
 					if(arrKuralNo.length > 1) {
 						kuralNo = parseInt(arrKuralNo[1]); 
+					} else {
+						console.log("Kural Array Size : " + arrKuralNo);	
 					}
-					//console.log("Kural Array Size : " + arrKuralNo);
+					
 				}
 
 				//Collect Kural 
@@ -201,6 +203,7 @@ kuralServices.factory ('KuralService', function (StorageService, _, cacheService
 				if(typeof kuralNo !== "undefined" && typeof kuralLine1 !== "undefined") {
 					var kuralProcessed = { "no" : kuralNo, "line1" : kuralLine1, "line2" : kuralLine2, "vilakkam" : kuralDesc , "panel" : "panel-" + kuralNo};
 					kuralsSorted.push(kuralProcessed);
+					//console.log("Valid Format : " + kural.content);
 				} else {
 					console.log("Invalid Format : " + kural.content);
 					console.log("kuralNo : " + kuralNo);

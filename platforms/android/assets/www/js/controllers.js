@@ -30,20 +30,18 @@ kuralControllers.controller('ChapterCtrl', ['$scope',  '$http', '$routeParams', 
 		$http.get('data/chapter.json').success(function(data) {
 			$scope.section = _.find(data, function(sec){ return sec.section == section; })
     		$scope.chapters = $scope.section.chapters;
-    		$scope.chapter = $scope.chapters[0]; 
+    		if($routeParams.chapter) {
+				$scope.chapter = $routeParams.chapter; 	
+    		} else {
+    			$scope.chapter = $scope.chapters[0]; 	
+    		}
+    		
   		});
 	};	
 
 	$scope.listSubChapters = function (chapter) {       
-		//var section = $routeParams.section;
-		//console.log('Chapters : ' + JSON.stringify(chapter));
 		$scope.chapter = chapter; 
-		/*
-		$http.get('data/chapter.json').success(function(data) {
-			$scope.section = _.find(data, function(sec){ return sec.section == section; })
-    		$scope.chapters = $scope.section.chapters;
-  		});
-		*/
+		$routeParams.chapter = chapter;
 	};	
 
 	//Show Chapters

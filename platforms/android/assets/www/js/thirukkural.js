@@ -180,3 +180,13 @@ function onReceiveFail (message) {
     }
     //console.log("load fail: " + message.type + "  " + msg);
 } 
+
+
+$(document).on('click','.panel-kural-head', function(event) {
+    event.preventDefault();
+    var target = "#" + this.getAttribute('id');
+    //$(target).scrollTop();
+    $('html, body').animate({
+    	scrollTop: $(target).offset().top - 55
+    }, 500);
+});
